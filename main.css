@@ -1,0 +1,1212 @@
+/* ### Default setting ####  */
+*{
+    box-sizing: border-box;
+}
+header, nav, footer{
+    display: block;
+}
+body{
+    font-family: "Poppins" , sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    color: #fff;
+}
+.row{
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.row ::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.col-1 {width: 8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* ### nav bar ### */
+nav{
+    width: 100% !important;
+    margin: 0;
+    background-color: black;
+    padding: 1rem;
+}
+nav ul{
+   
+    overflow: hidden;
+    margin: 0;
+   
+    
+}
+.navleft{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.dnavbar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navcen{
+    display: flex;
+    gap: 4rem;
+    
+    
+}
+.navcen li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.navcen li{
+    list-style-type: none;
+    font-weight: bold;
+}
+.btn{
+    padding:  5px 15px;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #fff;
+    font-weight: bold;
+    
+}
+.navright{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.navright li{
+    list-style-type: none;
+}
+
+
+.dropdown{
+   display: none; 
+   
+}
+/*### content layout ###*/
+.container{
+    margin-bottom: 2rem;
+}
+h1{
+    color: antiquewhite;
+    margin-left: 5rem;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    display: block;
+    padding: 8px;
+}
+.small{
+    color: rgb(127, 124, 124);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    display: block;
+    padding: 8px;
+    margin-left: 5rem; 
+    margin-bottom: 1rem;  
+}
+.head-btn{
+    background-color: blue;
+    padding: 15px;
+    border-radius: 20px 25px;
+    border: 0;
+    color: #fff;
+    margin-left: 5rem; 
+}
+.section2 {
+    padding-bottom: 7rem;
+}
+.section2 .section2-div{
+    
+    margin: 0 1rem;
+   
+}
+.section2-div ul{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding: 0;
+    
+   
+}
+.section2-div ul span{
+ background-color: blue;
+ padding: 8px;
+ border-radius: 1rem;
+}
+.section2-div ul li{
+    
+    list-style-type: none;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    margin-top: 4rem;
+   
+}
+.item{
+    padding: 2rem;
+    margin-left: 2rem;
+}
+ .body1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.body1 label{
+    font-weight: bold;
+}
+.body1 span{
+    color: rgb(127, 124, 124);
+}
+h3{
+
+    font-weight: bold;
+}
+.sub-body1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.sub-body1 span{
+    color: rgb(127, 124, 124);
+    font-size: smaller;
+}
+.sub-body1 .subcolor{
+    padding: 3px;
+    border-radius: 1rem;
+    background-color: red;
+    color: #fff;
+}
+.body2{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.body2 label{
+    font-weight: bold;
+}
+.body2 span{
+    color: rgb(127, 124, 124);
+}
+.sub-body2{
+    display: flex;
+    gap: 1rem;
+    align-items: center; 
+    margin-left: 1.5rem;  
+}
+.sub-body2 span{
+    color: rgb(127, 124, 124);
+    font-size: smaller;
+}
+.sub-body2 .subcolor{
+    padding: 3px;
+    border-radius: 1rem;
+    background-color: green;
+    color: #fff;
+}
+.body2-h3{
+    margin-left: 1.5rem;  
+}
+.body3{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.sub-body3{
+    display: flex;
+    gap: 1rem;
+    align-items: center; 
+    margin-left: 1.2rem;  
+}
+.sub-body3 span{
+    color: rgb(127, 124, 124);
+    font-size: smaller;
+}
+.body3-h3{
+    margin-left: 1.2rem;  
+}
+.sub-body3 .subcolor{
+    padding: 3px;
+    border-radius: 1rem;
+    background-color: red;
+    color: #fff;
+}
+.body4{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.body4 label{
+    font-weight: bold;
+}
+.body4 span{
+    color: rgb(127, 124, 124);
+}
+.sub-body4{
+    display: flex;
+    gap: 1rem;
+    align-items: center; 
+     
+}
+.sub-body4 span{
+    color: rgb(127, 124, 124);
+    font-size: smaller;
+}
+.sub-body4 .subcolor{
+    padding: 3px;
+    border-radius: 1rem;
+    background-color: red;
+    color: #fff;
+}
+.section3{
+    background-color: black;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    
+}
+.section3 .section3-head-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1rem;
+    
+}
+.section3-div-header{
+    background-color: black;
+}
+.section3-div-header .list{
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    background-color: black;
+    
+    /* justify-content: space-between; */
+    /* position: relative;
+    left: -60px; */
+    margin-bottom: 4rem;
+}
+.section3-div-header ul li{
+    list-style-type: none;
+
+}
+.section3-div-header ul li span{
+    background-color: blue;
+    border-radius: 1rem;
+    padding: 6px;
+}
+.section3-div-sub{
+    display: flex;
+    align-items: center;
+    gap: 18rem;
+    padding: 1rem 4rem;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+}
+.section3-div-sub div{
+    font-weight: 600;
+    display: flex;
+    gap: 2rem;
+}
+.section3-div-sub .sub-div1{
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+}
+.section3-div-sub .sub-div2{
+    font-weight: 600;
+    display: flex;
+    gap: 5.5rem;
+}
+.div-body1{
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+}
+.div-body1 .list1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+.div-body1 .ndlist1{
+    display: flex;
+    gap: 1.7rem;
+}
+.div-body1 .span{
+    font-size: 20px;
+    height: -9px;
+}
+.div-body1 .list1 .label{
+    color: rgb(127, 124, 124);
+}
+.div-body1 .list2{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+.XRP{
+    display: flex;
+    gap: 9rem; 
+}
+.AVAX{
+    display: flex;
+    gap: 4.4rem;
+}
+.list2 .style{
+    color: green;
+}
+.list2 .styled{
+    color: red;
+}
+.padstyle{
+    padding: 1rem 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+}
+.section4-head-div{
+    text-align: center;
+    margin: 6rem 0;
+}
+.section4-head-div h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+.section4-head-div label{
+    color: rgb(127, 124, 124);
+    font-weight: 600;
+}
+.section4-comp{
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.section4-comp div{
+    text-align: center;
+    margin: 4rem 0;   
+}
+.section4-comp label{
+    font-weight: bold;
+    margin: 0.6rem 0;
+    font-size: 20px;
+}
+.section4-comp h4{
+    color: rgb(127, 124, 124);
+    font-weight: 600;
+}
+.section5-head-div{
+    text-align: center;
+    margin: 6rem 0;
+}
+.section5-head-div h2{
+    font-weight: 500px;
+    font-size: 46px;
+}
+.section5-head-div label{
+    color: rgb(127, 124, 124);
+    font-weight: 600;
+    font-size: 20px;
+}
+.section5-comp{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+.section5-comp div{
+    text-align: center;
+    margin: 1.5rem 0;
+}
+.section5-comp h6{
+    color: rgb(127, 124, 124);
+    font-size: 15px;
+    margin: 0.5rem 0;
+}
+.section5-comp h5{
+    font-size: 25px;
+    margin: 0.6rem 0;
+}
+.section5-comp article{
+    color: rgb(127, 124, 124);
+    font-weight: 600;
+    font-size: 15px;
+}
+.section6{
+    margin: 8rem 0rem;
+    background-color: black;
+    padding: 15rem 0rem;
+}
+.section6-head-div{
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+    margin: 6rem 0;
+}
+.section6-head-div img{
+    width: 400px;
+}
+.section6-head-div .section6-head-comp{
+    margin: 5rem 0;
+}
+.section6-head-comp h2{
+    font-size: 50px;
+}
+.section6-head-comp label{
+    color: rgb(127, 124, 124);
+    font-size: 25px;
+}
+.section6-head2-div{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    margin: 3rem 0;
+}
+.section6-head2-div .div1 .sub1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.section6-head2-div .div2 .sub1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.sub1 span{
+    font-size: 40px;
+    color: blue;
+    
+}
+.sub1 h2{
+    font-weight: 500;
+    font-size: 28px;
+}
+.sub2 label{
+    color: rgb(127, 124, 124);
+    font-size: 25px;
+}
+.section6 button{
+    padding: 1rem 1.5rem;
+    background-color: blue;
+    border-radius: 2rem;
+    color: #fff;
+    /* margin-left: 8rem; */
+    border: none;
+    position: absolute;
+    left: 7rem;
+}
+.section7{
+    padding: 4rem 0rem;
+    
+}
+.section7-head2{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    margin: 6rem 0;
+}
+.section7-head2 .div1 .sub1{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.section7-head-div h1{
+    color: #fff;
+    margin: 0 0 0 5rem;
+}
+.section7-head-div label{
+    color: rgb(127, 124, 124);
+    font-weight: 600;
+    margin-left: 5rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    display: block;
+    padding: 8px;
+}
+footer{
+    background-color: black;
+   padding-top: 3rem;
+}
+.footer-content{
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.footer-head{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-left: 3rem;
+}
+.footer-head img{
+    width: 130px;
+    height: 50px;
+}
+.footer-head label{
+    font-size: 30px;
+    font-weight: bold;
+}
+.con1 h2{
+    margin-left: 2.5rem;
+}
+.con1 ul{
+    list-style-type: none;
+    line-height: 2rem;
+    color: rgb(127, 124, 124);
+}
+.footer-bot{
+    background-color: #131313;
+    padding: 2rem 0;
+    
+}
+.footer-bot .sub1{
+    text-align: center;
+}
+.sub1 span{
+    font-size: 20px;
+}
+.sub1 .fff{
+    font-size: 25px;
+}
+.footer-bot .sub2{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+
+
+
+/*### mobile responsive ###*/
+@media (min-width: 250px) and (max-width: 570px){
+    .section3-div-header{
+    overflow-x: scroll;
+
+    }
+    nav{
+        width: 100% !important;
+    }
+    .navcen{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .navleft{
+        font-size: 25px;
+    }
+    .btn{
+        padding: 5px 10px;
+    }
+    
+    .head .img-head{
+        width: 470px;
+    
+    }
+    .col-6{
+        width: 100%;
+    }
+    .colbot{
+        padding-bottom: 9rem;
+    }
+
+    h1{
+        margin-left: 3rem;
+        font-weight: 500;
+        font-size: 50px;
+        line-height: 55px;
+        display: block;
+        padding: 8px;
+    }
+    .small{
+        color: rgb(127, 124, 124);
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        display: block;
+        padding: 8px;
+        margin-left: 3rem; 
+        margin-bottom: 3rem;  
+    }
+    .head-btn{
+        margin-left: 3rem; 
+        margin-bottom: 3rem; 
+        font-size: 18px;
+    } 
+    .section2 {
+    padding-bottom: 0rem;
+    margin-bottom: 50rem;
+}
+    .section2-div ul{
+        /* justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap; */
+       flex: 50%;
+    } 
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 10px;
+        margin-top: 1rem;
+
+    }
+    .item{
+        padding: 1.5rem;
+    }
+    .item:hover{
+        border-radius: 2rem; 
+        background-color: rgb(192, 185, 176);
+    }
+    .item-bot{
+        margin-left: 1rem;
+    }
+    .section2-head{
+        padding: 1rem;
+        background-color: rgb(47, 48, 48);
+        margin: 0 2rem;
+        border-radius: 2rem;
+        box-shadow:  0 0px 3px 2px rgba(0,0,0,.15);
+        position: absolute;
+        top: 1000px;
+        /* margin-bottom: 9rem; */
+        
+    } 
+    .container{
+        background-color: #2e2929;
+        margin: 0;
+    }
+    .section4-comp{
+        display: block;
+    }
+    .section5-comp{
+        display: block;
+    }
+    .section6-head-div{
+        display: block;
+        margin: 1rem 3rem ;
+    }
+    .section6-head-div img{
+        width: 360px;
+    }
+    /* .section6-head-div .section6-head-comp{
+        margin: 5rem ;
+    } */
+    .section6-head-comp h2{
+        font-size: 35px;
+    }
+    .section6-head-comp label{
+        font-size: 20px;
+    }
+    .section6-head2-div{
+        display: block;
+        margin: 3rem 2rem;
+    }
+   
+    .sub1 h2{
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .sub2 label{
+        color: rgb(127, 124, 124);
+        font-size: 20px;
+    }
+    .section6 button{
+        position: absolute;
+    left: 2rem;
+    }
+    .section7-head2{
+        display: block;
+        margin: 3rem 3rem;
+    }
+    .section7-head-div h1{
+        margin-left: 3rem;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        display: block;
+        padding: 8px;
+    }
+    .section7-head-div label{
+        margin-left: 3rem;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 3px;
+    }
+    .section7-head2 .div2{
+        margin-bottom: 3rem;
+    }
+    .footer-content{
+        display: block;
+    }
+    
+   
+}
+
+@media (min-width: 576px) and (max-width: 750px){
+    /* body{
+        background-color: red;
+    } */
+    .section3-div-header{
+        overflow-x: scroll;
+    
+        }
+
+nav{
+    width: 100% !important;
+}
+.navcen{
+    display: none;
+}
+.dropdown{
+    display: block;
+}
+.navleft{
+    font-size: 25px;
+}
+.btn{
+    padding: 5px 10px;
+}
+.col-6{
+    width: 100%;
+}
+.colbot{
+    margin-bottom: 5rem;
+}
+.head .img-head{
+    width: 570px;
+    margin-bottom: 5rem;
+}
+h1{
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 55px;
+    display: block;
+    padding: 8px;
+}
+.small{
+    color: rgb(127, 124, 124);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    display: block;
+    padding: 8px;
+    margin-left: 3rem; 
+    margin-bottom: 3rem;  
+}
+.head-btn{
+    margin-left: 3rem; 
+    margin-bottom: 3rem; 
+    font-size: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+    margin-top: 4rem;
+
+}
+.item:hover{
+    border-radius: 2rem; 
+    background-color: rgb(192, 185, 176);
+}
+.item-bot{
+    margin-right: 1rem;
+    margin-left: 0;
+}
+.item-bot1{
+    margin-right: 1rem;
+    margin-left: 0;
+}
+.section2 {
+    padding-bottom: 0rem;
+    margin-bottom: 37rem;
+}
+.section2-head{
+    padding: 0rem;
+    background-color: rgb(47, 48, 48);
+    margin: 3rem;
+    border-radius: 2rem;
+    box-shadow:  0 0px 3px 2px rgba(0,0,0,.15);
+    position: absolute;
+    top: 1070px;
+    /* right: -10px; */
+    margin-bottom: 10rem;
+} 
+.container{
+    background-color: #2e2929;
+    margin: 0;
+}
+.section4-comp{
+    display: block;
+}
+.section5-comp{
+    display: block;
+}
+.section6-head-div{
+    display: block;
+    margin: 1rem 3rem ;
+    
+}
+.section6-head-div img{
+    width: 360px;
+}
+.section6-head-div img{
+    width: 490px;
+}
+.section6-head-comp h2{
+    font-size: 35px;
+}
+.section6-head2-div{
+    display: block;
+    margin: 3rem 2rem;
+}
+
+.sub1 h2{
+    font-weight: 500;
+    font-size: 23px;
+}
+.sub2 label{
+    color: rgb(127, 124, 124);
+    font-size: 20px;
+}
+.section6 button{
+    position: absolute;
+left: 2rem;
+}
+.section7-head2{
+    display: block;
+    margin: 3rem 3rem;
+}
+.section7-head-div h1{
+    margin-left: 3rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    display: block;
+    padding: 8px;
+}
+.section7-head-div label{
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 3px;
+}
+.section7-head2 .div2{
+    margin-bottom: 3rem;
+}
+.footer-content{
+    display: block;
+}
+}
+
+
+@media (min-width: 750px) and (max-width: 1050px){
+    .section3-div-header{
+        overflow-x: scroll;
+    
+        }
+    nav{
+        width: 100% !important;
+    }
+    .navcen{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .col-6{
+        width: 100%;
+    }
+    .colbot{
+        margin-bottom: 9rem;
+    }
+    .head .img-head{
+        width: 740px;
+    
+    }
+    .head-btn{
+        margin-left: 12rem; 
+        margin-bottom: 3rem; 
+        font-size: 23px;
+    }
+    h1{
+        margin-left: 12rem;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 55px;
+        display: block;
+        padding: 10px;
+    }
+    .small{
+        color: rgb(127, 124, 124);
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 27px;
+        display: block;
+        padding: 10px;
+        margin-left: 12rem; 
+        margin-bottom: 3rem;  
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    
+    }
+    .item:hover{
+        border-radius: 2rem; 
+        background-color: rgb(192, 185, 176);
+    }
+    .item-bot{
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+    .item-bot1{
+        margin-right: 1rem;
+        margin-left: 0;
+    }
+    .section2 {
+    padding-bottom: 0rem;
+    margin-bottom: 38rem;
+}
+    .section2-head{
+        padding: 0rem;
+        background-color: rgb(47, 48, 48);
+        margin: 4rem;
+        border-radius: 2rem;
+        box-shadow:  0 0px 3px 2px rgba(0,0,0,.15);
+        position: absolute;
+        top: 1200px;
+        /* right: -10px; */
+        margin-bottom: 14rem;
+    } 
+    .container{
+        background-color: #2e2929;
+        margin: 0;
+    }
+    .section4-comp{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15rem;
+    }
+    .section5-comp{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10rem;
+    }
+    .section6-head-div{
+        display: block;
+        margin: 2rem 9rem ;
+        
+    }
+    .section6-head-div img{
+        width: 360px;
+    }
+    .section6-head-div img{
+        width: 590px;
+    }
+    .section6-head-comp h2{
+        font-size: 55px;
+    }
+    .section6-head-comp label{
+        font-size: 30px;
+    }
+    .section6-head2-div{
+        display: block;
+        margin: 3rem 8rem;
+    }
+   
+    .sub1 h2{
+        font-weight: 500;
+        font-size: 33px;
+    }
+    .sub2 label{
+        color: rgb(127, 124, 124);
+        font-size: 28px;
+    }
+    .section7-head2{
+        display: block;
+        margin: 3rem 3rem;
+    }
+    .section7-head-div h1{
+        margin-left: 3rem;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 55px;
+        display: block;
+        padding: 8px;
+    }
+    .section7-head-div label{
+        margin-left: 3rem;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 30px;
+        padding: 3px;
+    }
+    .section7-head2 .div2{
+        margin-bottom: 3rem;
+    }
+    .footer-content{
+        display: block;
+    }
+   
+}
+
+
+
+.jsnav{
+    display: none;
+    background-color:black;
+    width: 100%;
+    height: 90vh;
+    z-index: 5;
+    position: absolute;
+    top: 70px;
+    transition: all 0.5s ease-in-out;
+    margin: 0;
+  }
+  .jsnav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    
+  }
+  .jsnav ul{
+    padding: 0;
+  }
+  .jsnav ul hr{
+    color: blue;
+  }
+  .jsnav li{
+    list-style-type: none;
+    padding: 10px 0;
+    /* margin-bottom: 2rem; */
+    /* border-bottom: 1px solid #5c5959; */
+  }
+  .left{
+    position: absolute;
+    display: block;
+    top: -750px;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .display{
+    display: block;
+    /* color: #010313; */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+
+  }
+  @media (min-width: 1051px) and (max-width: 1250px){
+    .section3-div-header{
+        overflow-x: scroll;
+    
+        }
+    .jsnav{
+        display: none;
+      }
+    .head .img-head{
+        width: 530px;
+        height: 480px;
+    
+    
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 10px;
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+    .section5-comp{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15rem;
+    }
+    .section6-head2-div{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        padding: 0 1.5rem;
+    }
+    .section6 button{
+        position: absolute;
+        left: 2rem
+    }
+    .section6-head2{
+        margin-bottom: 5rem;
+    }
+
+
+}
+
+@media (min-width: 1251px) and (max-width: 1450px){
+    .jsnav{
+        display: none;
+      }
+    .head .img-head{
+        width: 630px;
+        height: 500px;
+    
+    }
+}
+  @media (min-width: 1251px) and (max-width: 1450px){
+    .jsnav{
+        display: none;
+      }
+    .head .img-head{
+        width: 630px;
+        height: 500px;
+    
+    }
+}
+  /* @media (min-width:1051px) and (max-width: 4000px){
+    .jsnav{
+      display: none;
+    }
+  } */
